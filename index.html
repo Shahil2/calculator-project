@@ -10,6 +10,7 @@
 <body style="background-color: black; margin: 0;">
     <div class="calculator">
         <div class="screen" id="display">0</div>
+           <button onclick="clearDisplay()">C</button>
         <div class="buttons">
             <button onclick="appendNumber('7')">7</button>
             <button onclick="appendNumber('8')">8</button>
@@ -27,7 +28,7 @@
             <button onclick="appendNumber('.')">.</button>
             <button onclick="calculateResult()">=</button>
             <button onclick="setOperation('+')">+</button>
-            <button onclick="clearDisplay()">C</button>
+            
         </div>
     </div>
     <script src="script.js"></script>
