@@ -41,3 +41,14 @@
 .buttons button:active {
     background-color: rgb(138, 117, 220);
 }
+.clear{
+    height: 70px;
+    width: 70px;
+    margin-left: 19px;
+    margin-top: 19px;
+    font-size: 1.5em;
+    border-radius: 5px;
+    cursor: pointer;
+    border: none;
+    box-shadow: 5px 5px 20px rgba(0,0,0,0.1);
+}
